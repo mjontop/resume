@@ -1,0 +1,145 @@
+body {
+	background-image: url(../images/pattern8.png);
+}
+
+.parent {
+	border: 1px wheat solid;
+	margin-top: 50px;
+	margin-right: 25%;
+	margin-left: 25%;
+	height: 500px;
+	color: white;
+	font-size: 32px;
+}
+
+.top {
+	height: 76px;
+	background-color: rgb(45, 126, 233);
+}
+.mid {
+	margin-left: 5px;
+	height: 500px;
+	background-color: rgb(74, 71, 69);
+}
+.bottom {
+	margin-left: 8px;
+	height: 76px;
+	background-color: rgb(46, 46, 46);
+
+	color: aliceblue;
+}
+p {
+	font-family: "Courier New", Courier, monospace;
+	padding-top: 15px;
+	float: right;
+	font-size: 1rem;
+}
+
+.container {
+	border: 0px;
+}
+
+.left {
+	width: 100%;
+	border-right: 2px solid rgb(74, 71, 69);
+}
+.right {
+	width: 100%;
+	border-left: 2px solid rgb(45, 126, 233);
+}
+
+img {
+	width: 180px;
+	height: 180px;
+	position: relative;
+	top: -20%;
+}
+#img {
+	margin-left: 13%;
+	margin-right: 13%;
+
+	width: fit-content;
+	height: fit-content;
+}
+
+#social {
+	padding: 10px;
+	font-size: 1.2rem;
+	background-color: rgb(45, 126, 233);
+	color: white;
+	font-family: "Dosis", sans-serif;
+	width: fit-content;
+}
+
+p.intro {
+	padding: 2px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 10px;
+	float: left;
+	font-size: 1.4rem;
+	font-family: inherit;
+	color: white;
+	border-radius: 5px;
+	background-color: rgb(42, 41, 46);
+}
+span {
+	color: lightskyblue;
+}
+i {
+	padding: 5px;
+	font-size: 2.2rem;
+}
+a {
+	color: gray;
+}
+a:hover {
+	color: white;
+}
+
+.links {
+	font-size: 1.5rem;
+}
+
+#navbar {
+	margin-right: 15%;
+	padding: 10px;
+	float: right;
+}
+
+.navbar {
+	background-color: rgb(42, 41, 46);
+	border-radius: 1000px;
+}
+
+@media only screen and (max-width: 1200px) {
+	#img {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+}
+
+@media only screen and (max-width: 990px) {
+	img {
+		width: 150px;
+		height: 150px;
+	}
+	#img {
+		margin-left: 0%;
+		margin-right: 5%;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	#img {
+		margin-left: 30%;
+	}
+	.left {
+		border: 0px;
+	}
+	#navbar {
+		margin-left: 2%;
+
+		float: left;
+	}
+}
