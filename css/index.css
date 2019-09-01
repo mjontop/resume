@@ -3,7 +3,6 @@ body {
 }
 
 .parent {
-	
 	margin-top: 50px;
 
 	color: white;
@@ -21,18 +20,19 @@ body {
 }
 
 .bottom {
+	background: url(../images/bottom-bg-patern.png);
 	margin-left: 5px;
 	height: 76px;
-	background-color: rgb(43, 43, 43);
 	color: white;
 }
 
-p {
+p{
 	float: right;
 	font-family: "Courier New", Courier, monospace;
 	padding-top: 15px;
 	color: white;
-	font-size: 1.2rem;
+	font-size: 1.3rem;
+	
 }
 
 .container {
@@ -44,7 +44,6 @@ p {
 	border-right: 2px solid rgb(74, 71, 69);
 }
 .right {
-	
 	width: 100%;
 	border-left: 2px solid rgb(45, 126, 233);
 }
@@ -72,9 +71,7 @@ img {
 	width: fit-content;
 }
 
-
 p.intro {
-	
 	padding: 2px;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -141,8 +138,8 @@ a:hover {
 	.right {
 		border: 0px;
 	}
-	.mid{
-		height:fit-content;
+	.mid {
+		height: fit-content;
 	}
 	#navbar {
 		margin-left: 2%;
