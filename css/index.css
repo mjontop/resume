@@ -3,11 +3,9 @@ body {
 }
 
 .parent {
-	border: 1px wheat solid;
+	
 	margin-top: 50px;
-	margin-right: 25%;
-	margin-left: 25%;
-	height: 500px;
+
 	color: white;
 	font-size: 32px;
 }
@@ -21,18 +19,20 @@ body {
 	height: 500px;
 	background-color: rgb(74, 71, 69);
 }
-.bottom {
-	margin-left: 8px;
-	height: 76px;
-	background-color: rgb(46, 46, 46);
 
-	color: aliceblue;
+.bottom {
+	margin-left: 5px;
+	height: 76px;
+	background-color: rgb(43, 43, 43);
+	color: white;
 }
+
 p {
+	float: right;
 	font-family: "Courier New", Courier, monospace;
 	padding-top: 15px;
-	float: right;
-	font-size: 1rem;
+	color: white;
+	font-size: 1.2rem;
 }
 
 .container {
@@ -44,6 +44,7 @@ p {
 	border-right: 2px solid rgb(74, 71, 69);
 }
 .right {
+	
 	width: 100%;
 	border-left: 2px solid rgb(45, 126, 233);
 }
@@ -71,7 +72,9 @@ img {
 	width: fit-content;
 }
 
+
 p.intro {
+	
 	padding: 2px;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -134,8 +137,12 @@ a:hover {
 	#img {
 		margin-left: 30%;
 	}
-	.left {
+	.left,
+	.right {
 		border: 0px;
+	}
+	.mid{
+		height:fit-content;
 	}
 	#navbar {
 		margin-left: 2%;
