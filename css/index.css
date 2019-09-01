@@ -26,13 +26,12 @@ body {
 	color: white;
 }
 
-p{
+p {
 	float: right;
 	font-family: "Courier New", Courier, monospace;
 	padding-top: 15px;
 	color: white;
 	font-size: 1.3rem;
-	
 }
 
 .container {
@@ -41,11 +40,11 @@ p{
 
 .left {
 	width: 100%;
-	border-right: 2px solid rgb(74, 71, 69);
+	border-right: 2px solid #4a4745;
 }
 .right {
 	width: 100%;
-	border-left: 2px solid rgb(45, 126, 233);
+	border-left: 1px solid rgb(45, 126, 233);
 }
 
 img {
@@ -53,6 +52,8 @@ img {
 	height: 180px;
 	position: relative;
 	top: -20%;
+	border: 2px solid rgb(45, 126, 233);
+	border-radius: 5px;
 }
 #img {
 	margin-left: 13%;
@@ -70,11 +71,11 @@ img {
 	font-family: "Dosis", sans-serif;
 	width: fit-content;
 }
-
 p.intro {
 	padding: 2px;
 	padding-left: 10px;
 	padding-right: 10px;
+
 	margin-top: 10px;
 	float: left;
 	font-size: 1.4rem;
@@ -86,10 +87,8 @@ p.intro {
 span {
 	color: lightskyblue;
 }
-i {
-	padding: 5px;
-	font-size: 2.2rem;
-}
+
+
 a {
 	color: gray;
 }
@@ -120,6 +119,7 @@ a:hover {
 }
 
 @media only screen and (max-width: 990px) {
+	/*Only Image is edited */
 	img {
 		width: 150px;
 		height: 150px;
@@ -130,7 +130,7 @@ a:hover {
 	}
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
 	#img {
 		margin-left: 30%;
 	}
@@ -145,5 +145,11 @@ a:hover {
 		margin-left: 2%;
 
 		float: left;
+	}
+	p {
+		float: left;
+		margin-right: -10px;
+		padding-top: 5px;
+		font-size: 1rem;
 	}
 }
