@@ -111,6 +111,12 @@ a:hover {
 	border-radius: 1000px;
 }
 
+
+
+
+
+
+
 @media only screen and (max-width: 1200px) {
 	#img {
 		margin-left: 5%;
@@ -119,7 +125,7 @@ a:hover {
 }
 
 @media only screen and (max-width: 990px) {
-	/*Only Image is edited */
+	
 	img {
 		width: 150px;
 		height: 150px;
@@ -127,6 +133,12 @@ a:hover {
 	#img {
 		margin-left: 0%;
 		margin-right: 5%;
+	}
+
+	#intro{
+		
+		margin-left: -15px;
+		max-width: 440px;
 	}
 }
 
