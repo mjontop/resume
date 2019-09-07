@@ -22,7 +22,8 @@ body {
 .bottom {
 	background: url(../images/bottom-bg-patern.png);
 	margin-left: 5px;
-	height: 76px;
+	padding-top: 10px;
+	height: fit-content;
 	color: white;
 }
 
@@ -153,7 +154,7 @@ a:hover {
 	p {
 		float: left;
 		margin-right: -10px;
-		padding-top: 5px;
+		padding-top: 10px;
 		font-size: 1rem;
 	}
 }
@@ -162,5 +163,11 @@ a:hover {
 	#outermost {
 		margin-left: 10px;
 		margin-right: 30px;
+	}
+
+	p.intro {
+		padding-left: 20px;
+		padding-right: 20px;
+		font-size: 1.2rem;
 	}
 }
