@@ -85,6 +85,7 @@ p.intro {
 	color: white;
 	border-radius: 5px;
 	background-color: rgb(42, 41, 46);
+	user-select: none;
 }
 span {
 	color: lightskyblue;
@@ -95,6 +96,7 @@ a {
 }
 a:hover {
 	color: white;
+	text-decoration: none;
 }
 
 .links {
@@ -112,6 +114,10 @@ a:hover {
 	border-radius: 1000px;
 }
 
+i{
+	cursor: pointer;
+}
+
 @media only screen and (max-width: 1200px) {
 	#img {
 		margin-left: 5%;
@@ -124,10 +130,6 @@ a:hover {
 		width: 150px;
 		height: 150px;
 	}
-	#img {
-		margin-left: 0%;
-		margin-right: 5%;
-	}
 
 	#intro {
 		margin-left: -15px;
@@ -136,9 +138,7 @@ a:hover {
 }
 
 @media only screen and (max-width: 767px) {
-	#img {
-		margin-left: 30%;
-	}
+
 	.left,
 	.right {
 		border: 0px;
