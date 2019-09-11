@@ -1,42 +1,41 @@
 let resizer = () => {
-	pixel = ($("#myimg").width() - $("#img").width()) / 2
+    pixel = ($("#myimg").width() - $("#img").width()) / 2
 
-	$("#img").css("margin-left", pixel)
-	if ($(window).width() < 575) {
-		$("#bottom").removeClass("container")
-	} else {
-		$("#bottom").addClass("container")
-	}
+    $("#img").css("margin-left", pixel)
+    if ($(window).width() < 575) {
+        $("#bottom").removeClass("container")
+    } else {
+        $("#bottom").addClass("container")
+    }
 }
 
 $(window).on("resize", resizer)
 
-$(document).ready(function() {
-	var open = "home"
+$(document).ready(() => {
+    var open = "home"
 
-	$("#navhome").click(function() {
-		if (open !== "home") {
-			$(".hiding").slideUp()
-			$(".intro").slideDown()
-			open = "home"
-		}
-	})
-	$("#navuser").click(function() {
-		if (open !== "user") {
-			$(".user").removeClass("d-none")
-			
-			$(".hiding").slideUp("fast")
-			$(".user").slideDown()
-			open = "user"
-		}
-	})
-	$("#navcontact").click(function() {
-		if (open !== "contact") {
-			
-			$(".contact").removeClass("d-none")
-			$(".hiding").slideUp("fast")
-			$(".contact").slideDown()
-			open = "contact"
-		}
-	})
+    $("#navhome").click(() => {
+        if (open !== "home") {
+            $(".hiding").slideUp()
+            $(".intro").slideDown()
+            open = "home"
+        }
+    })
+    $("#navuser").click(() => {
+        if (open !== "user") {
+            $(".user").removeClass("d-none")
+
+            $(".hiding").slideUp("fast")
+            $(".user").slideDown()
+            open = "user"
+        }
+    })
+    $("#navcontact").click(() => {
+        if (open !== "contact") {
+            $(".contact").removeClass("d-none")
+            $(".hiding").slideUp("fast")
+            $(".contact").slideDown()
+            open = "contact"
+        }
+    })
 })
