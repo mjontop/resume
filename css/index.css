@@ -138,7 +138,8 @@ i {
     color: grey;
     font-family: monospace;
     padding: 10px;
-    margin-top:20px; 
+
+   
 }
 .pre:hover {
     color: white;
@@ -174,8 +175,16 @@ b.icons {
         margin-left: -15px;
         max-width: 440px;
     }
-    .right{
+    .right {
         width: 900px;
+    }
+
+    p#feedback {
+        font-size: 1rem;
+    }
+
+    i {
+        margin-bottom: 10px;
     }
 }
 
