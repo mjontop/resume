@@ -24,17 +24,17 @@ $(document).ready(function() {
 	$("#navuser").click(function() {
 		if (open !== "user") {
 			$(".user").removeClass("d-none")
-			$(".contact").removeClass("d-none")
-			$(".hiding").slideUp()
+			
+			$(".hiding").slideUp("fast")
 			$(".user").slideDown()
 			open = "user"
 		}
 	})
 	$("#navcontact").click(function() {
 		if (open !== "contact") {
-			$(".user").removeClass("d-none")
+			
 			$(".contact").removeClass("d-none")
-			$(".hiding").slideUp()
+			$(".hiding").slideUp("fast")
 			$(".contact").slideDown()
 			open = "contact"
 		}
