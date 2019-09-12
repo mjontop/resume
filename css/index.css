@@ -139,11 +139,16 @@ i {
     color: white;
 }
 
-p.info{
+p.info {
     font-size: 1.3rem;
     float: left;
 }
 
+p.info > span > i {
+    font-size: 1rem;
+    display: inline;
+    margin-left: -12px;
+}
 
 @media only screen and (max-width: 1200px) {
     #img {
@@ -178,11 +183,9 @@ p.info{
     i {
         margin-bottom: 10px;
     }
-    p.info{
+    p.info {
         font-size: 1rem;
     }
-   
-
 }
 
 @media only screen and (max-width: 767px) {
@@ -207,11 +210,10 @@ p.info{
     textarea {
         width: fit-content;
     }
-    p.info{
+    p.info {
         font-size: 1.3rem;
         float: left;
     }
-
 }
 
 @media only screen and (max-width: 575px) {
@@ -238,5 +240,11 @@ p.info{
     textarea {
         width: 200px;
         font-size: 1rem;
+    }
+
+    p.info {
+       
+        font-size: 0.8rem;
+       
     }
 }
