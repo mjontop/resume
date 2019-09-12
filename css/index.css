@@ -35,10 +35,6 @@ p {
     font-size: 1.3rem;
 }
 
-.container {
-    border: 0px;
-}
-
 .left {
     width: 100%;
     border-right: 1px solid #4a4745;
@@ -120,7 +116,7 @@ a:hover {
 }
 
 #navbar {
-    margin-right: 15%;
+    margin-right: 5%;
     padding: 10px;
     float: right;
 }
@@ -138,20 +134,16 @@ i {
     color: grey;
     font-family: monospace;
     padding: 10px;
-
-   
 }
 .pre:hover {
     color: white;
 }
 
-b.icons {
-    border-radius: 3px;
-    padding: 3px;
-    background: rgb(116, 111, 108);
-    color: white;
-    font-family: monospace;
+p.info{
+    font-size: 1.3rem;
+    float: left;
 }
+
 
 @media only screen and (max-width: 1200px) {
     #img {
@@ -186,6 +178,11 @@ b.icons {
     i {
         margin-bottom: 10px;
     }
+    p.info{
+        font-size: 1rem;
+    }
+   
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -210,6 +207,11 @@ b.icons {
     textarea {
         width: fit-content;
     }
+    p.info{
+        font-size: 1.3rem;
+        float: left;
+    }
+
 }
 
 @media only screen and (max-width: 575px) {
