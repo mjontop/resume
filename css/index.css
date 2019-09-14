@@ -145,9 +145,15 @@ p.info {
 }
 
 p.info > span > i {
-    font-size: 1rem;
+    font-size: 1.3rem;
     display: inline;
     margin-left: -12px;
+}
+
+
+#abcd{
+    border:1px red solid;
+    margin-left: 0px ;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -243,8 +249,6 @@ p.info > span > i {
     }
 
     p.info {
-       
         font-size: 0.8rem;
-       
     }
 }
