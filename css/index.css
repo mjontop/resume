@@ -168,6 +168,7 @@ p.info > span > i {
 li > a {
     font-size: 1.5rem;
     font-family: Montserrat;
+
 }
 
 @media only screen and (max-width: 1200px) {
@@ -205,6 +206,10 @@ li > a {
     }
     p.info {
         font-size: 1rem;
+    }
+    .progress {
+        
+        width: 200px;
     }
 }
 
