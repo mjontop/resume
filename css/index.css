@@ -29,10 +29,10 @@ body {
 
 p {
     float: right;
-    font-family: "Courier New", Courier, monospace;
+    font-family: Montserrat;
     padding-top: 15px;
     color: white;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 .left {
@@ -148,6 +148,21 @@ p.info > span > i {
     font-size: 1.3rem;
     display: inline;
     margin-left: -12px;
+}
+
+.skills {
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-left: 15px;
+    font-family: Montserrat;
+}
+
+.progress-bar {
+    background-color: rgb(45, 126, 233) !important;
+}
+.progress {
+    height: 10px;
+    width: 250px;
 }
 
 @media only screen and (max-width: 1200px) {
