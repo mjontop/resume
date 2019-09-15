@@ -229,6 +229,10 @@ p.info > span > i {
         font-size: 1.3rem;
         float: left;
     }
+    .progress {
+       
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 575px) {
