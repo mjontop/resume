@@ -165,10 +165,15 @@ p.info > span > i {
     width: 250px;
 }
 
-#feedback{
+#feedback {
     font-size: 1.3rem;
     font-family: Montserrat;
     margin-bottom: 20px;
+}
+li {
+    padding: 0;
+    padding-bottom: 20px;
+
 }
 
 li > a {
@@ -204,7 +209,6 @@ li > a {
 
     #feedback {
         font-size: 1rem;
-       
     }
 
     i {
@@ -280,5 +284,9 @@ li > a {
 
     p.info {
         font-size: 0.8rem;
+    }
+    li > a {
+        font-size: 1.2rem;
+        font-family: Montserrat;
     }
 }
