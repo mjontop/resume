@@ -173,7 +173,6 @@ p.info > span > i {
 li {
     padding: 0;
     padding-bottom: 20px;
-
 }
 
 li > a {
@@ -288,5 +287,11 @@ li > a {
     li > a {
         font-size: 1.2rem;
         font-family: Montserrat;
+    }
+    .user {
+        padding: 0px;
+    }
+    #feedback{
+        margin-top: 20px;
     }
 }
