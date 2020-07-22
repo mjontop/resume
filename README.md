@@ -1,4 +1,4 @@
 # resume
 Porfolio
 
-Technology used: HTML5, CSS, Bootstrap4, Javascript, Jquery
+Technology used: HTML5, CSS, Bootstrap4, Javascript, JQuery
